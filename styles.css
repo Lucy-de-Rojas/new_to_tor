@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
 a {
         display: flex;
         padding: 0;
@@ -46,9 +47,11 @@ a {
 
 }
 
+.smallImage {
+        width: 20%;
+        margin: 150px 0 10px 0;
 
-
-
+}
 
 p, ul {
         margin: 50px 0 150px 0;
@@ -59,3 +62,22 @@ li {
 }
 
 
+
+
+nav {
+        position: fixed;
+        text-align: right;
+        width: 10%;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: rgb(255, 255, 255);
+        padding: 10px 20px 0 20px;
+        border-radius: 20px 0 0 20px;
+        z-index: 1;
+        box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+nav > * {
+        text-decoration: none;
+}
