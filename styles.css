@@ -52,3 +52,9 @@ p, ul {
 li {
         margin: 20px;
 }
+
+
+.smallImage {
+        width: 27%;
+        margin: 100px 0 0px;
+}
