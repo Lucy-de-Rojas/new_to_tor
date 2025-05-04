@@ -36,11 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+a {
+        display: flex;
+        padding: 0;
+        margin: 50px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-img {
-        width: 80%;
-        margin: 100px 0;
 }
+
 
 
 
@@ -54,7 +59,3 @@ li {
 }
 
 
-.smallImage {
-        width: 27%;
-        margin: 100px 0 0px;
-}
